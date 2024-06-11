@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Signika:wght@300..700&display=swap");
+
+.cfContainer {
+  margin-top: 6rem;
+}
+
+.about {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #dafaf4 0.89%,
+    #68e9d1 17.23%,
+    #a1fbeb 55.12%,
+    #8afee9 71.54%,
+    #a7dbf2 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.aboutContainer {
+  display: flex;
+  margin: 4rem auto 10rem auto;
+  justify-content: center;
+}
+
+.fontTagp {
+  font-family: "Signika";
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.featureHeading {
+  font-size: 1.4rem;
+  color: #A7DBF2;
+}
+
+.about::after {
+  display: block;
+  width: 100%;
+  content: "";
+  position: relative;
+  height: 2px;
+  background-color: #79ffe7;
+  top: 6px;
+  transition: 0.9s;
+  margin: auto;
+}
+
+.about:hover::after {
+  width: 0px;
+}
+
+.a-abouts {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 45vw;
+  background: linear-gradient(
+    331deg,
+    #42464c -15.56%,
+    #283246 12.53%,
+    #182237 33.61%
+  );
+  /* border: 2px groove #dd7fe5; */
+  border: 3px groove #A7DBF2;
+}
+
+.a-abouts:hover {
+  animation: glowingShadow 2s infinite alternate;
+  box-shadow: 10px 1px 100px rgba(2, 147, 121, 1);
+}
+
+@keyframes glowingShadow {
+  0% {
+    box-shadow: 0 0 5px rgba(121, 255, 231, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(121, 255, 231, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(121, 255, 231, 0.2);
+  }
+}
+
+.a-analytics,
+.a-session {
+  margin: 30px 45vw 30px auto;
+}
+
+.a-operator,
+.a-alerts {
+  margin: 30px auto 30px 45vw;
+  position: relative;
+  z-index: 5;
+}
+
+.a-abouts:hover .a-paragraph {
+  color: white;
+}
+
+.a-img {
+  border-radius: 10px;
+}
+
+.a-im {
+  border-radius: 10px;
+}
+
+.a-paragraph {
+  color: #e3e7ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

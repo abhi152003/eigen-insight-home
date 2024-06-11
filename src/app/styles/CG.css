@@ -1,0 +1,290 @@
+.cgContainer {
+  margin-top: -3rem;
+}
+
+.cgBoxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem;  
+}
+
+.about3 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #dafaf4 0.89%,
+    #68e9d1 17.23%,
+    #a1fbeb 55.12%,
+    #8afee9 71.54%,
+    #a7dbf2 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 2rem;
+  }
+
+  
+.aboutContainer3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.about3::after {
+  display: block;
+  width: 100%;
+  content: "";
+  position: relative;
+  height: 2px;
+  background-color: #8AB3C9;
+  top: 6px;
+  transition: 0.9s;
+  margin: auto;
+}
+
+.about3:hover::after {
+  width: 0px;
+}
+
+/* .community-growth {
+  display: flex;
+  flex-direction: row;
+  padding: 7rem;
+  margin: 1rem 0rem;
+  gap: 10px;
+  border-radius: 30px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section {
+  background: linear-gradient(90deg, rgba(113, 131, 145, 0.3), rgba(167, 219, 242, 0.1));
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 20px; 
+  width: 30%;
+  box-sizing: border-box;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background 0.3s ease;
+  position: relative;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.section:hover {
+  transform: translateY(-15px);
+  background: linear-gradient(90deg, rgba(113, 131, 145, 0.4), rgba(167, 219, 242, 0.2));
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  background: linear-gradient(to right, #A7DBF2, #5E9CBF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 2rem;
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: center; 
+}
+
+.section::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #05223B, #A7DBF2);
+  transition: width 0.5s ease;
+}
+
+.section:hover::after {
+  width: 100%;
+}
+
+.educationImg {
+  width: 20%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.communityImg {
+  width: 20%;
+  height: auto;
+  margin-bottom: 1.5rem;
+} */
+
+.section_our_solution {
+  flex-basis: 50%;
+}
+
+.our_solution_category {
+  position: relative;
+}
+
+.our_solution_category::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #88accc, #A7DBF2);
+  transition: width 0.5s ease;
+}
+
+.our_solution_category:hover::after {
+  width: 100%;
+}
+
+.our_solution_category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.our_solution_category .solution_cards_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.solution_cards_box .solution_card {
+  flex: 0 50%;
+  box-shadow: 3px 5px 8px 0 rgba(136, 144, 195, 0.9),
+    4px 7px 25px 0 rgba(37, 44, 97, 0.9);
+  border-radius: 10px;
+  margin: 8px;
+  padding: 10px 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  min-height: 265px;
+  transition: 0.7s;
+}
+
+.solution_cards_box .solution_card:hover {
+  transform: scale(1.1);
+  z-index: 9;
+}
+
+.solution_cards_box .solution_card:before {
+  content: "";
+  position: absolute;
+  background: #427FA3;
+  width: 200px;
+  height: 400px;
+  z-index: -1;
+  transform: rotate(42deg);
+  right: -26px;
+  top: -3px;
+}
+
+.solu_title div {
+  font-family: "Maven Pro", sans-serif;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #dafaf4 0.89%,
+    #68e9d1 17.23%,
+    #a1fbeb 55.12%,
+    #8afee9 71.54%,
+    #a7dbf2 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.solu_description p {
+  font-family: "Maven Pro", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+.solution_card {
+  color: #fff;
+  font-size: 1rem;
+  padding: 5px 16px;
+}
+
+.hover_color_bubble {
+  position: absolute;
+  background: rgb(54 81 207 / 45%);
+  width: 100rem;
+  height: 100rem;
+  z-index: -1;
+  top: 13rem;
+  left: -18rem;
+  border-radius: 50%;
+  transform: rotate(-36deg);
+  transition: 1s;
+}
+
+.solution_cards_box .solution_card:hover .hover_color_bubble {
+  top: 0rem;
+}
+
+/*start media query*/
+@media screen and (min-width: 320px) {
+  .sol_card_top_3 {
+    position: relative;
+    top: 0;
+  }
+
+  .our_solution_category {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .our_solution_category .solution_cards_box {
+    flex: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .our_solution_category .solution_cards_box {
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .sol_card_top_3 {
+    position: relative;
+    top: -3rem;
+  }
+
+  .our_solution_category {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
