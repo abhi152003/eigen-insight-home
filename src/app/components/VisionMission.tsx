@@ -49,7 +49,7 @@ const VisionMission = () => {
             </div>
           </div>
           
-          <div data-aos="fade-up" className="a-aboutsVM a-analyticsVM">
+          <div data-aos="fade-up" className="cardVM a-aboutsVM a-analyticsVM">
             <div
               className="a-imgVM"
               data-aos="fade-right"
@@ -65,7 +65,7 @@ const VisionMission = () => {
                 className="a-imVM"
               />
             </div>
-            <div className="a-paragraphVM a-paragraphVM1" data-aos="fade-left">
+            <div className="a-paragraphVM" data-aos="fade-left">
               <p className="fontTagp">
                 <span className="featureHeading">Mission</span> <br />
                 To enhance the transparency, performance, security, and knowledge sharing of the EigenLayer ecosystem by providing comprehensive analytics and fostering direct communication between AVSs, operators, and restakers

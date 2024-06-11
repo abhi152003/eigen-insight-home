@@ -53,7 +53,7 @@
   bottom: 0;
   width: 7px;
   height: 100%;
-  background: linear-gradient(-45deg, #A7DBF2 20%, #05223B 20%, #00172B 100%);
+  background: linear-gradient(-45deg, #427FA3 10%, #214965 100%);
   z-index: -1;
   transition: all 1.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -83,6 +83,7 @@
 .a-aboutsVM {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 30px;
   padding: 20px 20px;
   border-radius: 10px;
@@ -116,6 +117,8 @@
 
 .a-analyticsVM {
   margin: 30px 55vw 30px auto;
+  position: relative;
+  z-index: 5;
 }
 
 .a-operatorVM {
@@ -141,4 +144,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Trying to center the content manually coz we need to keep the height of the vision and mission div same regardless of the content they hold */
+.a-paragraphVM1 {
+  margin-top: 1rem;
 }

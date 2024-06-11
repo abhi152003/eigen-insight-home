@@ -4,7 +4,7 @@
 
 .cgBoxes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   gap: 3rem;
   padding: 5rem;  
@@ -149,7 +149,7 @@
 .our_solution_category::after {
   content: "";
   position: absolute;
-  bottom: -25px;
+  bottom: -40px;
   left: 0;
   width: 0;
   height: 4px;
@@ -176,7 +176,7 @@
 
 .solution_cards_box .solution_card {
   flex: 0 50%;
-  box-shadow: 3px 5px 8px 0 rgba(136, 144, 195, 0.9),
+  box-shadow: 8px 10px 8px 0 rgba(136, 144, 195, 0.9),
     4px 7px 25px 0 rgba(37, 44, 97, 0.9);
   border-radius: 10px;
   margin: 8px;
@@ -184,12 +184,12 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  min-height: 265px;
+  min-height: 500px;
   transition: 0.7s;
 }
 
 .solution_cards_box .solution_card:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   z-index: 9;
 }
 
@@ -197,11 +197,11 @@
   content: "";
   position: absolute;
   background: #427FA3;
-  width: 200px;
-  height: 400px;
+  width: 120px;
+  height: 800px;
   z-index: -1;
   transform: rotate(42deg);
-  right: -26px;
+  right: -66px;
   top: -3px;
 }
 
@@ -224,6 +224,21 @@
   font-weight: 100;
 }
 
+.imgEducation {
+  width: 15rem;
+  height: auto;
+}
+
+.imgCommunity {
+  width: 15rem;
+  height: auto;
+}
+
+.imagesCG {
+  display: flex;
+  justify-content: center;
+}
+
 .solu_description p {
   font-family: "Maven Pro", sans-serif;
   color: white;
@@ -240,10 +255,10 @@
 .hover_color_bubble {
   position: absolute;
   background: rgb(54 81 207 / 45%);
-  width: 100rem;
+  width: 70rem;
   height: 100rem;
   z-index: -1;
-  top: 13rem;
+  top: 16rem;
   left: -18rem;
   border-radius: 50%;
   transform: rotate(-36deg);
@@ -251,7 +266,7 @@
 }
 
 .solution_cards_box .solution_card:hover .hover_color_bubble {
-  top: 0rem;
+  top: 5rem;
 }
 
 /*start media query*/

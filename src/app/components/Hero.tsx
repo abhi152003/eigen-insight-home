@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroimg from "../../../public/hi3.jpg";
+import heroimg from "../../../public/circle hero img1 (1).png";
 import "../styles/Hero.css";
 import "animate.css";
 
@@ -8,18 +8,24 @@ const Hero = () => {
   return (
     <>
       <div className="hero">
-        <div className="heroText">
-          <h2 className="heroTexth2 animate__animated animate__zoomInDown">
-            Empowering EigenLayer with <br /> Data, Engagement, and Knowledge
-          </h2>
-          <p className="heroTextp">
-            EigenInsight is a powerful analytics and engagement platform for the
-            EigenLayer ecosystem, connecting AVSs, operators, and restakers.
-          </p>
+        <div className="heroContentContainer">
+          <div className="heroText">
+            <h2 className="heroTexth2 animate__animated animate__zoomInDown">
+              Empowering EigenLayer with <br /> Data, Engagement, and Knowledge
+            </h2>
+            <p className="heroTextp">
+              EigenInsight is a powerful analytics and engagement platform for
+              the EigenLayer ecosystem, connecting AVSs, operators, and
+              restakers.
+            </p>
+          </div>
+          <div className="heroImgContainer">
+            <Image src={heroimg} alt="heroimg" className="heroImg" />
+          </div>
         </div>
 
         <svg viewBox="0 0 120 14" className="svgContainer">
-        <defs>
+          <defs>
             <mask id="xyz">
               <circle cx="7" cy="6" r="20" fill="#fff" />
             </mask>
@@ -63,12 +69,7 @@ const Hero = () => {
               d="M 0,5 C 30,5 30,7.5 60,7.5 90,7.5 90,5 120,5 150,5 150,7.5 180,7.5 210,7.5 210,5 240,5 v 14 h -240 z"
             />
           </g>
-
         </svg>
-        
-        {/* <div className="heroImg">
-            <Image src={heroimg} alt='hero-image' className='hero-img'></Image>
-        </div> */}
       </div>
     </>
   );
