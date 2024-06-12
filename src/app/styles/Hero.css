@@ -27,16 +27,16 @@
 
 .pulsingHeroImg {
   border-radius: 50%;
-  animation: pulse 3s infinite;
+  animation: pulse 4s infinite;
   transition: transform 0.3s ease-in-out;
 }
 
 @keyframes pulse {
   0%, 100% {
-    box-shadow: 0 0 10px yellow;
+    box-shadow: 0 0 10px rgb(189, 235, 250);
   }
   50% {
-    box-shadow: 0 0 60px rgba(17, 188, 218, 0.7);
+    box-shadow: 0 0 40px rgba(17, 188, 218, 0.7);
   }
 }
 
@@ -146,5 +146,122 @@ svg {
 @keyframes wave {
   to {
     transform: translateX(-100%);
+  }
+}
+
+.star1 {
+  position: absolute;
+  height: 80px;
+  width: 1px;
+  background: rgb(94, 159, 243);
+  box-shadow: rgb(45, 104, 189) 0px 0px 10px 2px;
+  animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
+  bottom: 50%;
+  left: 15%;
+  height: 120px;
+  animation-delay: -2.3s;
+}
+
+.star1::before {
+  content: "";
+  background: url("../../../public/shooting_star.png") center center / contain;
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 0px;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+.star2 {
+  position: absolute;
+  width: 1px;
+  background: rgb(94, 159, 243);
+  box-shadow: rgb(45, 104, 189) 0px 0px 10px 2px;
+  animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
+  bottom: 20%;
+  left: 40%;
+  height: 180px;
+  animation-duration: 1900ms;
+  animation-delay: -1s;
+}
+
+.star2::before {
+  content: "";
+  background: url("../../../public/shooting_star.png") center center / contain;
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 0px;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+.star3 {
+  position: absolute;
+  width: 2px;
+  background: rgb(94, 159, 243);
+  box-shadow: rgb(45, 104, 189) 0px 0px 10px 2px;
+  animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
+  bottom: 20%;
+  right: 40%;
+  height: 180px;
+  animation-duration: 1900ms;
+  animation-delay: -2s;
+}
+
+.star3::before {
+  content: "";
+  background: url("../../../public/shooting_star.png") center center / contain;
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 0px;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+.star4 {
+  position: absolute;
+  width: 1px;
+  background: rgb(94, 159, 243);
+  box-shadow: rgb(45, 104, 189) 0px 0px 10px 2px;
+  animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
+  bottom: 50%;
+  right: 5%;
+  height: 180px;
+  animation-duration: 1900ms;
+  animation-delay: -300ms;
+}
+
+.star4::before {
+  content: "";
+  background: url("../../../public/shooting_star.png") center center / contain;
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 0px;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes starAnimation {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-600px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }

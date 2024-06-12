@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import "../styles/CG.css";
-import education from "../../../public/ES1-round.png";
-import communityImg from "../../../public/CE1-round.png";
+import education from "../../../public/education-circle.png";
+import communityImg from "../../../public/ce2-circle.png";
 
 const CommunityGrowth = () => {
   return (
@@ -27,7 +27,7 @@ const CommunityGrowth = () => {
                           className="imgEducation"
                         />
                       </div>
-                      <div>
+                      <div className="h2containerCG">
                         <h2>Education and Support</h2>
                       </div>
                     </div>
@@ -60,7 +60,7 @@ const CommunityGrowth = () => {
                           className="imgCommunity"
                         />
                       </div>
-                      <div>
+                      <div className="h2containerCG">
                         <h2>Community Engagement</h2>
                       </div>
                     </div>
@@ -79,35 +79,6 @@ const CommunityGrowth = () => {
         </div>
       </div>
 
-      {/* <div className="community-growth">
-        <div className="section cardCG">
-          <Image
-            src={education}
-            alt="education"
-            className="educationImg"
-          ></Image>
-          <h2>Education and Support</h2>
-          <p>
-            Provide resources and tutorials to help new users understand
-            restaking, AVSs, and operator roles. Recorded sessions will serve as
-            valuable learning materials.
-          </p>
-        </div>
-
-        <div className="section cardCG">
-          <Image
-            src={communityImg}
-            alt="communityEngagement"
-            className="communityImg"
-          ></Image>
-          <h2>Community Engagement</h2>
-          <p>
-            Foster a vibrant community through forums, Q&A sessions, regular
-            updates, and shared knowledge from recorded sessions and office
-            hours.
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };

@@ -98,7 +98,7 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  min-height: 500px;
+  min-height: 450px;
   transition: 0.7s;
 }
 
@@ -139,18 +139,24 @@
 }
 
 .imgEducation {
-  width: 15rem;
+  width: 10rem;
   height: auto;
 }
 
 .imgCommunity {
-  width: 15rem;
+  width: 10rem;
   height: auto;
 }
 
 .imagesCG {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
+}
+
+.h2containerCG {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .solu_title div h2 {
@@ -158,6 +164,7 @@
 }
 
 .solu_description p {
+  text-align: center;
   font-family: "Maven Pro", sans-serif;
   color: white;
   font-size: 1.2rem;

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroimg from "../../../public/circle hero img1 (1).png";
+import heroimg from "../../../public/circle hero img1.png";
 import "../styles/Hero.css";
 import "animate.css";
 
@@ -18,9 +18,19 @@ const Hero = () => {
               the EigenLayer ecosystem, connecting AVSs, operators, and
               restakers.
             </p>
+            <div className="starContainer">
+              <div className="star1"></div>
+              <div className="star2"></div>
+              <div className="star3"></div>
+              <div className="star4"></div>
+            </div>
           </div>
           <div className="heroImgContainer">
-            <Image src={heroimg} alt="heroimg" className="heroImg pulsingHeroImg" />
+            <Image
+              src={heroimg}
+              alt="heroimg"
+              className="heroImg pulsingHeroImg"
+            />
           </div>
         </div>
 
