@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Signika:wght@300..700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@
     position: relative;
     width: 50%;
     animation: movedown 1s linear forwards;
-    opacity: 0;
+    opacity: 1;
 }
 
 @keyframes movedown {
@@ -52,11 +54,44 @@
     position: relative;
     border-radius: 6px;
     font-size: 16px;
+    background: linear-gradient(
+    331deg,
+    #42464c -15.56%,
+    #283246 12.53%,
+    #182237 33.61%
+  );
+    border: 3px groove #A7DBF2;
+    height: 17rem;
 }
 
-.text-box small {
-    display: inline-block;
-    margin-bottom: 16px;
+.hoverCF:hover {
+    animation: glowingShadow 2s infinite alternate;
+    box-shadow: 10px 1px 100px rgba(2, 147, 121, 1);
+}
+
+@keyframes glowingShadow {
+    0% {
+      box-shadow: 0 0 5px rgba(121, 255, 231, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(121, 255, 231, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(121, 255, 231, 0.2);
+    }
+}
+
+.h1OfCF {
+    font-size: 1.5rem;
+    color: #A7DBF2;
+    margin-bottom: 1.5rem;
+}
+
+.text-box p {
+    font-family: "Signika";
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: white;
 }
 
 .left-container {
@@ -69,16 +104,16 @@
 
 .cfImg {
     position: absolute;
-    width: 40px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
-    right: -70px;
+    right: -83px;
     top: 32px;
     z-index: 10;
 }
 
 .rightImg {
-    left: -70px;
+    left: -83px;
 }
 
 .timeline::after {
@@ -107,11 +142,11 @@
     height: 0;
     width: 0;
     position: absolute;
-    top: 28px;
+    top: 45px;
     z-index: 1;
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent;
-    border-left: 16px solid #fff;
+    border-left: 16px solid gray;
     right: -15px;
 }
 
@@ -119,10 +154,10 @@
     height: 0;
     width: 0;
     position: absolute;
-    top: 28px;
+    top: 45px;
     z-index: 1;
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent;
-    border-right: 16px solid #fff;
+    border-right: 16px solid gray;
     left: -15px;
-}
+} */

@@ -51,41 +51,6 @@
   padding-bottom: 9rem;
 }
 
-/* .benefit-div {
-  flex: 0 0 30%;
-  box-sizing: border-box;
-  padding: 20px;
-  color: white;
-  border-radius: 10px;
-  background: #00172B;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, background 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  min-height: 200px; 
-}
-
-.benefit-div:hover {
-  transform: scale(1.05);
-  background: #11334D;
-}
-
-.benefit-div h2 {
-  margin-top: 0;
-  font-size: 1.5em;
-  color: #A7DBF2;
-} */
-
-/* .benefit-div p {
-  font-family: "Maven Pro", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: #f1f1f1;
-  flex-grow: 1;
-  margin: 0;
-} */
-
 .restakers:hover {
   box-shadow: 0 0 70px #A7DBF2;
 }
@@ -166,7 +131,6 @@
 .content .para {
   z-index: 1;
   opacity: 1;
-  font-size: 18px;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 

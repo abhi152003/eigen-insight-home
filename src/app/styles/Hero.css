@@ -25,6 +25,21 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.pulsingHeroImg {
+  border-radius: 50%;
+  animation: pulse 3s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 10px yellow;
+  }
+  50% {
+    box-shadow: 0 0 60px rgba(17, 188, 218, 0.7);
+  }
+}
+
 .heroTexth2 {
   font-family: "Maven Pro", sans-serif;
   background: radial-gradient(

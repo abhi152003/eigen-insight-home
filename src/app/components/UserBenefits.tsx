@@ -7,36 +7,9 @@ const UserBenefits = () => {
     <div className="containerMain">
       <div className="aboutContainer2">
         <h1 className="about2">User Benefits</h1>
-      </div>
+      </div>  
       <div className="main-div">
-        {/* <div className="benefit-div restakers">
-          <h2>Restakers</h2>
-          <p>
-            Gain detailed insights into where to allocate their staked assets
-            for maximum yield and security. Directly engage with operators and
-            AVS teams to address concerns, get support, and learn from recorded
-            sessions.
-          </p>
-        </div> */}
-
-        {/* <div className="benefit-div operators">
-          <h2>Node Operators</h2>
-          <p>
-            Showcase their reliability and performance, attract more restakers,
-            and receive direct feedback from the community. Office hours and
-            sessions can help build trust, improve service, and share knowledge.
-          </p>
-        </div> */}
-
-        {/* <div className="benefit-div avss">
-          <h2>AVSs</h2>
-          <p>
-            Analyze operator performance, optimize their protocols, and engage
-            directly with the community to gather feedback, improve their
-            services, and share knowledge.
-          </p>
-        </div> */}
-
+       
         <div className="card">
           <div className="content restakers">
             <h2 className="h2OfUB">Restakers</h2>
