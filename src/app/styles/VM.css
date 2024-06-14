@@ -2,7 +2,7 @@
 
 .aboutVM{
   font-family: "Maven Pro", sans-serif;
-  font-size: 40px;
+  font-size: 2.5vmax;
   position: absolute;
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -20,8 +20,8 @@
 .aboutContainerVM{
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
-  margin-bottom: 9rem;
+  padding-top: 3vmax;
+  margin-bottom: 9vmax;
 }
 
 .aboutVM::after {
@@ -31,7 +31,7 @@
   position: relative;
   height: 2px;
   background-color: #8AB3C9;
-  top: 6px;
+  top: 0.375vmax;
   transition: 0.9s;
   margin: auto;
 }
@@ -64,19 +64,19 @@
 
 .fontTagpVision {
   font-family: "Signika";
-  font-size: 1.2rem;
-  line-height: 2rem;
-  margin-bottom: 3.5rem;
+  font-size: 1.2vmax;
+  line-height: 2vmax;
+  margin-bottom: 3.5vmax;
 }
 
 .fontTagp {
   font-family: "Signika";
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1.2vmax;
+  line-height: 2vmax;
 }
 
 .featureHeading {
-  font-size: 1.5rem;
+  font-size: 1.5vmax;
   color: #A7DBF2;
   font-weight: 600;
 }
@@ -85,10 +85,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
-  padding: 20px 20px;
+  gap: 1.9vmax;
+  padding: 1.25vmax 1.25vmax;
   border-radius: 10px;
-  width: 35vw;
+  width: 35vmax;
   background: linear-gradient(
     331deg,
     #42464c -15.56%,
@@ -117,13 +117,13 @@
 }
 
 .a-analyticsVM {
-  margin: 30px 55vw 30px auto;
+  margin: 1.875vmax 55vmax 1.875vmax auto;
   position: relative;
   z-index: 5;
 }
 
 .a-operatorVM {
-  margin: 30px auto 30px 55vw;
+  margin: 1.875vmax auto 1.875vmax 55vw;
   position: relative;
   z-index: 5;
 }
@@ -149,5 +149,15 @@
 
 /* Trying to center the content manually coz we need to keep the height of the vision and mission div same regardless of the content they hold */
 .a-paragraphVM1 {
-  margin-top: 1rem;
+  margin-top: 1vmax;
+}
+
+.imgVM1 {
+  width: 5vmax;
+  height: auto;
+}
+
+.imgVM2 {
+  width: 5vmax;
+  height: auto;
 }

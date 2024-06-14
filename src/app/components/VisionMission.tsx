@@ -34,9 +34,7 @@ const VisionMission = () => {
               <Image
                 src={vision}
                 alt="vision"
-                width={85}
-                height={85}
-                className="a-imVM"
+                className="a-imVM imgVM1"
               />
             </div>
             <div className="a-paragraphVM a-paragraphVM1" data-aos="fade-left">
@@ -60,9 +58,7 @@ const VisionMission = () => {
               <Image
                 src={mission}
                 alt="mission"
-                width={100}
-                height={100}
-                className="a-imVM"
+                className="a-imVM imgVM2"
               />
             </div>
             <div className="a-paragraphVM" data-aos="fade-left">

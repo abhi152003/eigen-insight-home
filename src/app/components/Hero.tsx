@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <svg viewBox="0 0 120 14" className="svgContainer">
+        <svg viewBox="0 0 120 10" className="svgContainer">
           <defs>
             <mask id="xyz">
               <circle cx="7" cy="6" r="20" fill="#fff" />

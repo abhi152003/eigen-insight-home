@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Signika:wght@300..700&display=swap");
 
 .cfContainer {
-  margin-top: 6rem;
+  margin-top: 6vmax;
 }
 
 .about {
   font-family: "Maven Pro", sans-serif;
-  font-size: 40px;
+  font-size: 2.5vmax;
   position: absolute;
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -23,7 +23,7 @@
 
 .aboutContainer {
   display: flex;
-  margin: 4rem auto 10rem auto;
+  margin: 4vmax auto 10vmax auto;
   justify-content: center;
 }
 
@@ -34,7 +34,7 @@
   position: relative;
   height: 2px;
   background-color: #79ffe7;
-  top: 6px;
+  top: 0.375vmax;
   transition: 0.9s;
   margin: auto;
 }
@@ -45,12 +45,12 @@
 
 .timeline {
   position: relative;
-  max-width: 1200px;
-  margin: 100px auto;
+  max-width: 75vmax;
+  margin: 6.25vmax auto;
 }
 
 .container {
-  padding: 10px 50px;
+  padding: 0.625vmax 3.125vmax;
   position: relative;
   width: 50%;
   animation: movedown 1s linear forwards;
@@ -60,7 +60,7 @@
 @keyframes movedown {
   0% {
       opacity: 1;
-      transform: translateY(-30px);
+      transform: translateY(-1.875vmax);
   }
 
   100% {
@@ -86,11 +86,11 @@
 }
 
 .text-box {
-  padding: 20px 30px;
+  padding: 0.625vmax 3.125vmax;
   background-color: white;
   position: relative;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 1vmax;
   background: linear-gradient(
   331deg,
   #42464c -15.56%,
@@ -98,7 +98,7 @@
   #182237 33.61%
 );
   border: 3px groove #A7DBF2;
-  height: 17rem;
+  height: 17vmax;
 }
 
 .hoverCF:hover {
@@ -119,16 +119,16 @@
 }
 
 .h1OfCF {
-  font-size: 1.4rem;
+  font-size: 1.3vmax;
   color: #A7DBF2;
   font-weight: 600;
-  margin: 1.2rem 0rem;
+  margin: 1.2vmax 0vmax;
 }
 
 .text-box p {
   font-family: "Signika";
-  font-size: 1.2rem;
-  line-height: 2.2rem;
+  font-size: 1.2vmax;
+  line-height: 2.2vmax;
   color: white;
 }
 
@@ -142,22 +142,22 @@
 
 .cfImg {
   position: absolute;
-  width: 60px;
+  width: 3.75vmax;
   height: auto;
   border-radius: 50%;
-  right: -83px;
-  top: 32px;
+  right: -5.1875vmax;
+  top: 2vmax;
   z-index: 10;
 }
 
 .rightImg {
-  left: -83px;
+  left: -5.1875vmax;
 }
 
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 0.375vmax;
   height: 100%;
   background-color: #fff;
   top: 0;
@@ -180,12 +180,12 @@
   height: 0;
   width: 0;
   position: absolute;
-  top: 45px;
+  top: 2.8vmax;
   z-index: 1;
-  border-top: 16px solid transparent;
-  border-bottom: 16px solid transparent;
-  border-left: 16px solid #5E9CBF;
-  right: -18px;
+  border-top: 1vmax solid transparent;
+  border-bottom: 1vmax solid transparent;
+  border-left: 1vmax solid #5E9CBF;
+  right: -1.125vmax;
 }
 
 .right-container-arrow {
@@ -194,8 +194,8 @@
   position: absolute;
   top: 45px;
   z-index: 1;
-  border-top: 16px solid transparent;
-  border-bottom: 16px solid transparent;
-  border-right: 16px solid #718391;
-  left: -18px;
+  border-top: 1vmax solid transparent;
+  border-bottom: 1vmax solid transparent;
+  border-right: 1vmax solid #718391;
+  left: -1.125vmax;
 }

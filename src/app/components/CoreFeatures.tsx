@@ -27,7 +27,7 @@ const CoreFeatures = () => {
 
       <div className="timeline">
         <div className="container left-container">
-          <div className="text-box hoverCF" data-aos="fade-right">
+          <div className="text-box hoverCF" data-aos="fade-down">
             <Image src={analytics} alt="analytics" className="cfImg" />
             <h1 className="h1OfCF">Analytics Dashboard</h1>
             <p>
@@ -40,7 +40,7 @@ const CoreFeatures = () => {
         </div>
 
         <div className="container right-container">
-          <div className="text-box hoverCF" data-aos="fade-left">
+          <div className="text-box hoverCF" data-aos="fade-up">
             <Image src={operator} alt="operator" className="cfImg rightImg" />
             <h1 className="h1OfCF">Operator and AVS Profiles</h1>
             <p>
@@ -52,7 +52,7 @@ const CoreFeatures = () => {
         </div>
 
         <div className="container left-container">
-          <div className="text-box hoverCF" data-aos="fade-right">
+          <div className="text-box hoverCF" data-aos="fade-down">
             <Image src={ofchours} alt="ofchours" className="cfImg" />
             <h1 className="h1OfCF">Office Hours and One-to-One Sessions</h1>
             <p>
@@ -65,7 +65,7 @@ const CoreFeatures = () => {
         </div>
 
         <div className="container right-container">
-          <div className="text-box hoverCF" data-aos="fade-left">
+          <div className="text-box hoverCF" data-aos="fade-up">
             <Image src={alerts} alt="alerts" className="cfImg rightImg" />
             <h1 className="h1OfCF">Alerts and Notifications</h1>
             <p>

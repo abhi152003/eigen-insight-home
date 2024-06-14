@@ -4,11 +4,11 @@
 }
 
 .heroContentContainer {
-  padding-top: 3rem;
+  padding-top: 3vmax;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7rem;
+  gap: 7vmax;
 }
 
 .heroText {
@@ -20,7 +20,7 @@
 }
 
 .heroImg {
-  width: 23rem;
+  width: 23vmax;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
@@ -53,21 +53,21 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: 3vmax;
+  margin-bottom: 2vmax;
   font-weight: 100;
 }
 
 .heroTextp {
   font-family: "Maven Pro", sans-serif;
   color: white;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  max-width: 800px;
+  font-size: 1.3vmax;
+  line-height: 1.8vmax;
+  width: 50vmax;
 }
 
 .svgContainer {
-  margin-top: 1rem;
+  margin-top: 4vmax;
 }
 
 svg {
@@ -90,19 +90,19 @@ svg {
 }
 
 .drop1 {
-  transform-origin: 20px 3px;
+  transform-origin: 1.25vmax 3px;
 }
 
 .drop2 {
   animation-delay: 3s;
   animation-duration: 3s;
-  transform-origin: 25px 3px;
+  transform-origin: 1.56vmax 3px;
 }
 
 .drop3 {
   animation-delay: -2s;
   animation-duration: 3.4s;
-  transform-origin: 16px 3px;
+  transform-origin: 1vmax 3px;
 }
 
 .gooeff {
@@ -151,14 +151,14 @@ svg {
 
 .star1 {
   position: absolute;
-  height: 80px;
+  height: 5vmax;
   width: 1px;
   background: rgb(94, 159, 243);
   box-shadow: rgb(45, 104, 189) 0px 0px 10px 2px;
   animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
   bottom: 50%;
   left: 15%;
-  height: 120px;
+  height: 7.5vmax;
   animation-delay: -2.3s;
 }
 
@@ -166,9 +166,9 @@ svg {
   content: "";
   background: url("../../../public/shooting_star.png") center center / contain;
   position: absolute;
-  width: 60px;
-  height: 80px;
-  top: 0px;
+  width: 3.75vmax;
+  height: 5vmax;
+  top: 0vmax;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -182,7 +182,7 @@ svg {
   animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
   bottom: 20%;
   left: 40%;
-  height: 180px;
+  height: 11.25vmax;
   animation-duration: 1900ms;
   animation-delay: -1s;
 }
@@ -191,9 +191,9 @@ svg {
   content: "";
   background: url("../../../public/shooting_star.png") center center / contain;
   position: absolute;
-  width: 60px;
-  height: 80px;
-  top: 0px;
+  width: 3.75vmax;
+  height: 5vmax;
+  top: 0vmax;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -207,7 +207,7 @@ svg {
   animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
   bottom: 20%;
   right: 40%;
-  height: 180px;
+  height: 11.25vmax;
   animation-duration: 1900ms;
   animation-delay: -2s;
 }
@@ -216,9 +216,9 @@ svg {
   content: "";
   background: url("../../../public/shooting_star.png") center center / contain;
   position: absolute;
-  width: 60px;
-  height: 80px;
-  top: 0px;
+  width: 3.75vmax;
+  height: 5vmax;
+  top: 0vmax;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -232,7 +232,7 @@ svg {
   animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
   bottom: 50%;
   right: 5%;
-  height: 180px;
+  height: 11.25vmax;
   animation-duration: 1900ms;
   animation-delay: -300ms;
 }
@@ -241,9 +241,9 @@ svg {
   content: "";
   background: url("../../../public/shooting_star.png") center center / contain;
   position: absolute;
-  width: 60px;
-  height: 80px;
-  top: 0px;
+  width: 3.75vmax;
+  height: 5vmax;
+  top: 0vmax;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -251,14 +251,14 @@ svg {
 
 @keyframes starAnimation {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0vmax);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   50% {
-    transform: translateY(-600px);
+    transform: translateY(-37.5vmax);
     opacity: 0;
   }
   100% {
