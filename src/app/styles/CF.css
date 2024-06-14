@@ -103,7 +103,7 @@
 
 .hoverCF:hover {
   animation: glowingShadow 2s infinite alternate;
-  box-shadow: 10px 1px 100px rgba(2, 147, 121, 1);
+  box-shadow: 10px 1px 100px #5E9CBF;
 }
 
 @keyframes glowingShadow {
@@ -119,9 +119,10 @@
 }
 
 .h1OfCF {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #A7DBF2;
-  margin-bottom: 1.5rem;
+  font-weight: 600;
+  margin: 1.2rem 0rem;
 }
 
 .text-box p {
@@ -183,7 +184,7 @@
   z-index: 1;
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
-  border-left: 16px solid gray;
+  border-left: 16px solid #5E9CBF;
   right: -18px;
 }
 
@@ -195,6 +196,6 @@
   z-index: 1;
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
-  border-right: 16px solid gray;
+  border-right: 16px solid #718391;
   left: -18px;
 }

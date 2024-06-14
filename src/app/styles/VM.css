@@ -53,7 +53,7 @@
   bottom: 0;
   width: 7px;
   height: 100%;
-  background: linear-gradient(-45deg, #427FA3 10%, #214965 100%);
+  background: linear-gradient(-45deg, #214965 40%, #214965 70%);
   z-index: -1;
   transition: all 1.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -76,8 +76,9 @@
 }
 
 .featureHeading {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #A7DBF2;
+  font-weight: 600;
 }
 
 .a-aboutsVM {
@@ -100,18 +101,18 @@
 
 .a-aboutsVM:hover {
   animation: glowingShadow 2s infinite alternate;
-  box-shadow: 10px 1px 100px rgba(2, 147, 121, 1);
+  box-shadow: 100px 100px 100px #5E9CBF;
 }
 
 @keyframes glowingShadow {
   0% {
-    box-shadow: 0 0 5px rgba(121, 255, 231, 0.2);
+    box-shadow: 0 20px 20px rgba(121, 255, 231, 0.2);
   }
   50% {
-    box-shadow: 0 0 30px rgba(121, 255, 231, 0.8);
+    box-shadow: 0 0px 30px rgba(121, 255, 231, 0.8);
   }
   100% {
-    box-shadow: 0 0 5px rgba(121, 255, 231, 0.2);
+    box-shadow: 0 0 50px rgba(121, 255, 231, 0.2);
   }
 }
 
