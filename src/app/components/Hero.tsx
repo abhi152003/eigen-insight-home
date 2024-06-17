@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import heroimg from "../../../public/circle hero img1.png";
 import "../styles/Hero.css";
-import "animate.css";
+import 'animate.css'
 
 const Hero = () => {
   return (

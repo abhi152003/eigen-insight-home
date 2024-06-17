@@ -15,8 +15,8 @@
 }
 
 .headerImg {
-  width: 5vmax;
-  height: 5vmax;
+  width: 5vw;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -36,7 +36,7 @@
       #A7DBF2
     );
     background-size: 1000px 100%;
-    animation: bg 30s linear infinite;
+    animation: bg 25s linear infinite;
     background-clip: text;
     -webkit-background-clip: text;
 }

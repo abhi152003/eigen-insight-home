@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
@@ -10,6 +10,9 @@ import alerts from "../../../public/alerts-circle.png";
 import "../styles/CF.css";
 
 const CoreFeatures = () => {
+
+  const [aosAnimation, setAosAnimation] = useState("fade-down");
+
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -17,7 +20,25 @@ const CoreFeatures = () => {
       delay: 50,
       mirror: true,
     });
+
+    const handleResize = () => {
+      if (window.innerWidth <= 700) {
+        setAosAnimation("fade-up");
+      } else {
+        setAosAnimation("fade-down");
+      }
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add resize event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
 
   return (
     <div className="cfContainer">
@@ -27,7 +48,7 @@ const CoreFeatures = () => {
 
       <div className="timeline">
         <div className="container left-container">
-          <div className="text-box hoverCF" data-aos="fade-down">
+          <div className="text-box hoverCF" data-aos={aosAnimation}>
             <Image src={analytics} alt="analytics" className="cfImg" />
             <h1 className="h1OfCF">Analytics Dashboard</h1>
             <p>
@@ -51,11 +72,11 @@ const CoreFeatures = () => {
           </div>
         </div>
 
-        <div className="container left-container">
-          <div className="text-box hoverCF" data-aos="fade-down">
+        <div className="container left-container containerOfc">
+          <div className="text-box hoverCF text-boxOfc" data-aos={aosAnimation}>
             <Image src={ofchours} alt="ofchours" className="cfImg" />
             <h1 className="h1OfCF">Office Hours and One-to-One Sessions</h1>
-            <p>
+            <p className="ofcHoursP">
               Enable operators and AVSs to schedule office hours and one-to-one
               sessions with restakers and other stakeholders. This facilitates
               direct communication, support, and community building.

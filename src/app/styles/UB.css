@@ -44,8 +44,11 @@
 
 .main-div {
   display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 0rem 5rem;
   justify-content: space-evenly;
-  align-items: stretch;
+  /* align-items: stretch; */
   padding-bottom: 9vmax;
 }
 
@@ -65,11 +68,10 @@
   border: 2px solid #A7DBF2;
 }
 
-
-/* From here the changed design of the User Benefits CSS is starting */
 .card {
   position: relative;
   display: flex;
+  margin-bottom: 0.5rem;
   align-items: center;
   justify-content: center;
   width: 22vmax;
@@ -82,7 +84,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.5vmax;
   height: 23.75vmax;
   padding: 2.25vmax;
   border-radius: 1.375vmax;
@@ -168,4 +169,17 @@
 
 .h2OfUB {
   margin-bottom: 0vmax;
+}
+
+@media screen and (max-width: 700px) {
+  /* .main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  } */
+
+  .card {
+    width: 50vw;
+  }
 }

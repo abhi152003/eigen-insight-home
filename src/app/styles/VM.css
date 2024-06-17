@@ -95,7 +95,6 @@
     #283246 12.53%,
     #182237 33.61%
   );
-
   border: 3px groove #A7DBF2;
 }
 
@@ -153,11 +152,34 @@
 }
 
 .imgVM1 {
-  width: 5vmax;
+  width: 4.3vmax;
+  margin-right: 0.37rem;
   height: auto;
 }
 
 .imgVM2 {
   width: 5vmax;
   height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .a-operatorVM {
+    position: relative;
+    z-index: 5;
+  }
+
+  .a-analyticsVM {
+    position: relative;
+    z-index: 5;
+  }
+
+  .fontTagp {
+    margin-bottom: 0.7rem;
+  }
+
+  .a-aboutsVM {
+    width: 60vw;
+    margin: 2rem auto;
+    height: fit-content;
+  }
 }

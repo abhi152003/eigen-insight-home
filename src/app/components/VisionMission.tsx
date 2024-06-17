@@ -8,6 +8,8 @@ import mission from "../../../public/mission.png";
 import "../styles/VM.css";
 
 const VisionMission = () => {
+  const [aosAnimation, setAosAnimation] = useState("fade-down");
+
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -15,6 +17,23 @@ const VisionMission = () => {
       delay: 50,
       mirror: true,
     });
+
+    const handleResize = () => {
+      if (window.innerWidth <= 700) {
+        setAosAnimation("fade-up");
+      } else {
+        setAosAnimation("fade-down");
+      }
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add resize event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (

@@ -42,3 +42,9 @@
     background-position-x: 10000px;
   }
 }
+
+@media screen and (max-width: 700px) { 
+  .footerh3 {
+    font-size: 1.3vmax;
+  }
+}

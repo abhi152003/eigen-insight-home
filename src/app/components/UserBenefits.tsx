@@ -8,8 +8,8 @@ const UserBenefits = () => {
       <div className="aboutContainer2">
         <h1 className="about2">User Benefits</h1>
       </div>  
+      
       <div className="main-div">
-       
         <div className="card">
           <div className="content restakers">
             <h2 className="h2OfUB">Restakers</h2>

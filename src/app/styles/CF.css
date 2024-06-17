@@ -53,8 +53,10 @@
   padding: 0.625vmax 3.125vmax;
   position: relative;
   width: 50%;
+  height: 22vmax;
   animation: movedown 1s linear forwards;
   opacity: 1;
+  /* background-color: red; */
 }
 
 @keyframes movedown {
@@ -67,6 +69,28 @@
       opacity: 1;
       transform: translateY(0px);
   }   
+}
+
+.text-box {
+  padding: 0.625vmax 3.125vmax;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  font-size: 1vmax;
+  background: linear-gradient(
+  331deg,
+  #42464c -15.56%,
+  #283246 12.53%,
+  #182237 33.61%
+);
+  border: 3px groove #A7DBF2;
+  width: auto;
+  height: 16vmax;
+}
+
+.text-boxOfc {
+  height: 17.5vmax;
+  border: 3px groove #A7DBF2;
 }
 
 .container:nth-child(1) {
@@ -83,22 +107,6 @@
 
 .container:nth-child(4) {
   animation-delay: 3s;
-}
-
-.text-box {
-  padding: 0.625vmax 3.125vmax;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-  font-size: 1vmax;
-  background: linear-gradient(
-  331deg,
-  #42464c -15.56%,
-  #283246 12.53%,
-  #182237 33.61%
-);
-  border: 3px groove #A7DBF2;
-  height: 17vmax;
 }
 
 .hoverCF:hover {
@@ -128,7 +136,7 @@
 .text-box p {
   font-family: "Signika";
   font-size: 1.2vmax;
-  line-height: 2.2vmax;
+  line-height: 2vmax;
   color: white;
 }
 
@@ -180,7 +188,7 @@
   height: 0;
   width: 0;
   position: absolute;
-  top: 2.8vmax;
+  top: 2.8125vmax;
   z-index: 1;
   border-top: 1vmax solid transparent;
   border-bottom: 1vmax solid transparent;
@@ -192,10 +200,56 @@
   height: 0;
   width: 0;
   position: absolute;
-  top: 45px;
+  top: 2.8125vmax;
   z-index: 1;
   border-top: 1vmax solid transparent;
   border-bottom: 1vmax solid transparent;
   border-right: 1vmax solid #718391;
   left: -1.125vmax;
+}
+
+@media screen and (max-width: 700px) {
+  .text-box {
+    margin-left: 1rem;
+  }
+
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after{
+    left: 46px;
+  }
+
+  .container {
+    width: 90%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .text-box {
+    font-size: 13px;
+  }
+
+  .text-box p {
+    margin-bottom: 1rem;
+  }
+
+  .right-container {
+    left: 0;
+  }
+
+  .cfImg {
+    left: -67px;
+  }
+
+  .left-container-arrow, .right-container-arrow {
+    border-right: 16px solid #fff;
+    border-left: 0;
+    left: -17px;
+  }
+
+  .container, .text-box {
+    height: auto;
+  }
 }

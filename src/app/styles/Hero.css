@@ -6,12 +6,14 @@
 .heroContentContainer {
   padding-top: 3vmax;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 7vmax;
 }
 
 .heroText {
+  padding: 0rem 3rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -20,7 +22,7 @@
 }
 
 .heroImg {
-  width: 23vmax;
+  width: 23vw;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
@@ -59,11 +61,13 @@
 }
 
 .heroTextp {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Maven Pro", sans-serif;
   color: white;
   font-size: 1.3vmax;
   line-height: 1.8vmax;
-  width: 50vmax;
+  max-width: 50rem;
 }
 
 .svgContainer {
@@ -201,7 +205,7 @@ svg {
 
 .star3 {
   position: absolute;
-  width: 2px;
+  width: 1px;
   background: rgb(94, 159, 243);
   box-shadow: rgb(45, 104, 189) 0px 0px 10px 2px;
   animation: 1700ms ease-in-out 0s infinite normal none running starAnimation;
@@ -263,5 +267,76 @@ svg {
   }
   100% {
     opacity: 0;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .heroTexth2 {
+    font-size: 3.5vw;
+  }
+
+  .star1 {
+    bottom: 65%;
+    left: 15%;
+  }
+
+  .star2 {
+    bottom: 90%;
+    left: 40%;
+  }
+
+  .star3 {
+    bottom: 90%;
+    right: 40%;
+  }
+
+  .star4 {
+    bottom: 65%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .star1 {
+    bottom: 65%;
+    left: 15%;
+  }
+
+  .star2 {
+    bottom: 40%;
+    left: 40%;
+  }
+
+  .star3 {
+    bottom: 40%;
+    right: 40%;
+  }
+
+  .star4 {
+    bottom: 65%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .star1 {
+    bottom: 70%;
+    left: 15%;
+  }
+
+  .star2 {
+    bottom: 55%;
+    left: 40%;
+  }
+
+  .star3 {
+    bottom: 55%;
+    right: 40%;
+  }
+
+  .star4 {
+    bottom: 70%;
+    right: 5%;
   }
 }
