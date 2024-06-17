@@ -48,7 +48,6 @@
   gap: 3rem;
   padding: 0rem 5rem;
   justify-content: space-evenly;
-  /* align-items: stretch; */
   padding-bottom: 9vmax;
 }
 
@@ -152,13 +151,13 @@
   height: 100%;
 }
 
-.content h2 {
+.h2OfUB {
   font-size: 1.5vmax;
   color: #A7DBF2;
   font-weight: 600;
 }
 
-.content p {
+.para {
   font-family: "Maven Pro", sans-serif;
   font-size: 1.2vmax;
   line-height: 2vmax;
@@ -167,19 +166,36 @@
   margin: 0; 
 }
 
-.h2OfUB {
-  margin-bottom: 0vmax;
+@media screen and (max-width: 700px) {
+  .card {
+    width: 80vw;
+  }
+
+  .h2OfUB {
+    font-size: 1.7vmax;
+  }
+
+  .para {
+    font-size: 1.7vmax;
+  }
 }
 
-@media screen and (max-width: 700px) {
-  /* .main-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  } */
+@media screen and (max-width: 400px) {
+  .content {
+    height: fit-content;
+  }
+}
 
-  .card {
-    width: 50vw;
+@media screen and (min-width: 450px) and (max-width: 700px) {
+  .card:hover .content::before {
+    rotate: -3deg;
+  }
+
+  .content {
+    height: fit-content;
+  }
+  
+  .card:hover .content::after {
+    rotate: 3deg;
   }
 }

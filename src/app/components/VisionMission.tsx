@@ -57,12 +57,12 @@ const VisionMission = () => {
               />
             </div>
             <div className="a-paragraphVM a-paragraphVM1" data-aos="fade-left">
-              <p className="fontTagpVision">
-                <span className="featureHeading">Vision</span> <br />
-                Empowering the EigenLayer Ecosystem: Data-Driven Insights,
+              <div className="fontTagpVision">
+                <span className="featureHeading">Vision</span>
+                <p className="pOfVision">Empowering the EigenLayer Ecosystem: Data-Driven Insights,
                 Direct Engagement, and Knowledge Sharing for AVSs, Operators,
-                and Restakers
-              </p>
+                and Restakers</p>
+              </div>
             </div>
           </div>
           
@@ -81,10 +81,11 @@ const VisionMission = () => {
               />
             </div>
             <div className="a-paragraphVM" data-aos="fade-left">
-              <p className="fontTagp">
-                <span className="featureHeading">Mission</span> <br />
-                To enhance the transparency, performance, security, and knowledge sharing of the EigenLayer ecosystem by providing comprehensive analytics and fostering direct communication between AVSs, operators, and restakers
-              </p>
+              <div className="fontTagp">
+                <div className="missionVM featureHeading">Mission</div>
+                <p className="pOfMission">To enhance the transparency, performance, security, and knowledge sharing of the EigenLayer ecosystem by providing comprehensive analytics and fostering direct communication between AVSs, operators, and restakers
+                </p>
+              </div>
             </div>
           </div>
 

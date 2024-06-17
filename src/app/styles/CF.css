@@ -56,7 +56,6 @@
   height: 22vmax;
   animation: movedown 1s linear forwards;
   opacity: 1;
-  /* background-color: red; */
 }
 
 @keyframes movedown {
@@ -208,7 +207,7 @@
   left: -1.125vmax;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .text-box {
     margin-left: 1rem;
   }
@@ -218,7 +217,7 @@
   }
 
   .timeline::after{
-    left: 46px;
+    left: 36px;
   }
 
   .container {
@@ -240,7 +239,7 @@
   }
 
   .cfImg {
-    left: -67px;
+    left: -78px;
   }
 
   .left-container-arrow, .right-container-arrow {
@@ -251,5 +250,14 @@
 
   .container, .text-box {
     height: auto;
+  }
+
+  .h1OfCF {
+    font-size: 1.7vmax;
+  }
+
+  .text-box p {
+    font-size: 1.7vmax;
+    font-weight: lighter;
   }
 }

@@ -63,6 +63,9 @@
 }
 
 .fontTagpVision {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-family: "Signika";
   font-size: 1.2vmax;
   line-height: 2vmax;
@@ -70,6 +73,9 @@
 }
 
 .fontTagp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-family: "Signika";
   font-size: 1.2vmax;
   line-height: 2vmax;
@@ -162,7 +168,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
   .a-operatorVM {
     position: relative;
     z-index: 5;
@@ -178,8 +184,31 @@
   }
 
   .a-aboutsVM {
-    width: 60vw;
+    width: 80vw;
     margin: 2rem auto;
     height: fit-content;
+  }
+
+  .featureHeading {
+    font-size: 1.9vmax;
+    margin-bottom: -1.5rem;
+  }
+
+  .missionVM {
+    margin-top: 0.5rem;
+  }
+
+  .pOfVision {
+    margin-top: 1.9rem;
+    font-weight: lighter;
+  }
+
+  .pOfMission {
+    margin-top: 2rem;
+    font-weight: lighter;
+  }
+
+  .fontTagpVision, .fontTagp {
+    font-size: 1.7vmax;
   }
 }

@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   padding: 1vmax;
-  padding-left: 10vmax;
+  padding-left: 8vmax;
 }
 
 .imgContainer {
@@ -48,4 +48,16 @@
     100% {
       background-position-x: 10000px;
     }
+}
+
+@media screen and (max-width: 700px){
+  .navbar {
+    padding-left: 6vmax;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .navbar {
+    padding-left: 4.5vmax;
+  }
 }

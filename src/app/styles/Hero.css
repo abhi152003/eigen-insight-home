@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 7vmax;
+  gap: 7vw;
 }
 
 .heroText {
@@ -65,9 +65,9 @@
   flex-wrap: wrap;
   font-family: "Maven Pro", sans-serif;
   color: white;
-  font-size: 1.3vmax;
+  font-size: 1.4vmax;
   line-height: 1.8vmax;
-  max-width: 50rem;
+  max-width: 42rem;
 }
 
 .svgContainer {
@@ -270,10 +270,13 @@ svg {
   }
 }
 
-
 @media screen and (max-width: 700px) {
   .heroTexth2 {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
+  }
+
+  .heroTextp {
+    font-size: 1.2vmax;
   }
 
   .star1 {
