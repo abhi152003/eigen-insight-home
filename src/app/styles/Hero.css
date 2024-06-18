@@ -272,7 +272,11 @@ svg {
 
 @media screen and (max-width: 700px) {
   .heroTexth2 {
-    font-size: 4vw;
+    font-size: 4.5vw;
+  }
+
+  .heroImg {
+    width: 35vw;
   }
 
   .heroTextp {

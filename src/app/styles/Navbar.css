@@ -52,7 +52,27 @@
 
 @media screen and (max-width: 700px){
   .navHeader { 
-    font-size: 3vw;
+    font-size: 3.8vw;
+  }
+
+  .headerImg {
+    width: 7vw;
+    height: auto;
+  }
+
+  .navbar {
+    padding-left: 5vmax;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .navHeader { 
+    font-size: 3.2vw;
+  }
+
+  .headerImg {
+    width: 6vw;
+    height: auto;
   }
 
   .navbar {
@@ -62,7 +82,12 @@
 
 @media screen and (max-width: 400px){
   .navHeader { 
-    font-size: 3vw;
+    font-size: 3.8vw;
+  }
+
+  .headerImg {
+    width: 7vw;
+    height: auto;
   }
 
   .navbar {
