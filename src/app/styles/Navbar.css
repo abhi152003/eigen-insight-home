@@ -3,19 +3,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1vmax;
+  padding: 1.1vw;
   padding-left: 8vmax;
 }
 
 .imgContainer {
   display: flex;
   align-items: center;
-  gap: 1vmax;
+  gap: 1vw;
   text-decoration: none;
 }
 
 .headerImg {
-  width: 5vw;
+  width: 4.2vw;
   height: auto;
   border-radius: 50%;
 }
@@ -24,7 +24,8 @@
     margin-bottom: 0.375vmax;
     font-family: "Maven Pro", sans-serif;
     font-weight: 600;
-    font-size: 2.3vmax;
+    font-size: 2.1vw;
+    margin-top: 0.1rem;
     color: transparent;
     background: linear-gradient(
       to left,
