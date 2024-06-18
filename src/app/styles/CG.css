@@ -120,23 +120,15 @@
   top: -3px;
 }
 
-.solu_title div {
+.pcontainerCG {
   font-family: "Maven Pro", sans-serif;
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #dafaf4 0.89%,
-    #68e9d1 17.23%,
-    #a1fbeb 55.12%,
-    #8afee9 71.54%,
-    #a7dbf2 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 1.5vmax;
+  color: #A7DBF2;
+  font-weight: 600;
+  font-size: 1.7vmax;
   line-height: 3vmax;
   margin-bottom: 1vmax;
-  font-weight: 100;
+  margin-top: 2vmax;
+  text-align: center;
 }
 
 .imgEducation {
@@ -155,18 +147,9 @@
   justify-content: center;
 }
 
-.h2containerCG {
-  margin-top: 2vmax;
-  text-align: center;
-}
-
-.h2containerCG {
-  font-size: 1.8vmax;
-  font-weight: 500;
-}
-
 .solu_description p {
   text-align: center;
+  font-weight: lighter;
   font-family: "Maven Pro", sans-serif;
   color: white;
   font-size: 1.3vmax;
@@ -217,5 +200,6 @@
 
   .solu_description p {
     font-size: 1.7vmax;
+    font-weight: lighter;
   }
 }

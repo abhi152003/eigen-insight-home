@@ -67,6 +67,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   font-family: "Signika";
+  font-weight: 400;
   font-size: 1.2vmax;
   line-height: 2vmax;
   margin-bottom: 3.5vmax;
@@ -77,6 +78,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   font-family: "Signika";
+  font-weight: 400;
   font-size: 1.2vmax;
   line-height: 2vmax;
 }

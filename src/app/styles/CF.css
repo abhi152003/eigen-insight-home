@@ -134,6 +134,7 @@
 
 .text-box p {
   font-family: "Signika";
+  font-weight: lighter;
   font-size: 1.2vmax;
   line-height: 2vmax;
   color: white;

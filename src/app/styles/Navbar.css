@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1.1vw;
+  padding: 1.3vmax;
   padding-left: 8vmax;
 }
 
@@ -24,8 +24,7 @@
     margin-bottom: 0.375vmax;
     font-family: "Maven Pro", sans-serif;
     font-weight: 600;
-    font-size: 2.1vw;
-    margin-top: 0.1rem;
+    font-size: 2.3vmax;
     color: transparent;
     background: linear-gradient(
       to left,
@@ -52,12 +51,20 @@
 }
 
 @media screen and (max-width: 700px){
+  .navHeader { 
+    font-size: 3vw;
+  }
+
   .navbar {
-    padding-left: 6vmax;
+    padding-left: 5vmax;
   }
 }
 
 @media screen and (max-width: 400px){
+  .navHeader { 
+    font-size: 3vw;
+  }
+
   .navbar {
     padding-left: 4.5vmax;
   }

@@ -27,8 +27,8 @@ const CommunityGrowth = () => {
                           className="imgEducation"
                         />
                       </div>
-                      <div className="h2containerCG">
-                        <h2>Education and Support</h2>
+                      <div className="pcontainerCG">
+                        <p>Education and Support</p>
                       </div>
                     </div>
                     <div className="solu_description">
@@ -60,8 +60,8 @@ const CommunityGrowth = () => {
                           className="imgCommunity"
                         />
                       </div>
-                      <div className="h2containerCG">
-                        <h2>Community Engagement</h2>
+                      <div className="pcontainerCG">
+                        <p>Community Engagement</p>
                       </div>
                     </div>
                     <div className="solu_description">
