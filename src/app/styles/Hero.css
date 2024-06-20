@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 7vw;
+  gap: 5vw;
 }
 
 .heroText {
@@ -71,7 +71,7 @@
 }
 
 .svgContainer {
-  margin-top: 4.4vmax;
+  margin-top: 2.4vmax;
 }
 
 svg {

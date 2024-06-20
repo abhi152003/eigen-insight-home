@@ -99,7 +99,7 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  min-height: 30vmax;
+  min-height: 28vmax;
   transition: 0.7s;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .solution_cards_box .solution_card:hover .hover_color_bubble {
-  top: 5vmax;
+  top: 8vmax;
 }
 
 /*start media query*/
