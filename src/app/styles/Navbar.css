@@ -5,6 +5,8 @@
   align-items: center;
   padding: 1.3vmax;
   padding-left: 8vmax;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
 .imgContainer {

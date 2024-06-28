@@ -1,10 +1,15 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import heroimg from "../../../public/circle hero img1.png";
 import "../styles/Hero.css";
-import 'animate.css'
+import "animate.css";
 
 const Hero = () => {
+  const handleOnClick = () => {
+    window.open('https://eigeninsight.vercel.app/')
+  };
+
   return (
     <>
       <div className="hero">
@@ -18,6 +23,30 @@ const Hero = () => {
               the EigenLayer ecosystem, connecting AVSs, operators, and
               restakers.
             </p>
+              <button
+                type="button"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  color: "white",
+                  borderRadius: "12px",
+                  borderColor: "white",
+                  borderStyle: "solid",
+                  paddingLeft: "16px",
+                  paddingRight: "16px",
+                  paddingTop: "12px",
+                  paddingBottom: "12px",
+                  backgroundColor: "#214965",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  cursor: "pointer"
+                }}
+                onClick={handleOnClick}
+                className="hover:scale-105 hover:transition-all hover:ease-in-out 
+                    btnShine btnShineWallet"
+              >
+                Launch App 🚀
+              </button>
             <div className="starContainer">
               <div className="star1"></div>
               <div className="star2"></div>
