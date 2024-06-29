@@ -7,7 +7,7 @@ import "animate.css";
 
 const Hero = () => {
   const handleOnClick = () => {
-    window.open('https://eigeninsight.vercel.app/')
+    window.open('https://app.eigeninsight.xyz/')
   };
 
   return (
